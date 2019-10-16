@@ -1,0 +1,20 @@
+{{define "index"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{.title}}</title>
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+	{{template "_header" .title}}
+
+	<div class="hero">
+		<img src="/static/go.png">
+	</div>
+
+	{{template "_footer"}}
+
+</body>
+</html>
+{{end}}
